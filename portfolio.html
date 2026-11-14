@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Portafolio — MAISON</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: { ink: '#111111', ivory: '#F3EFE8', champagne: '#B9A58A', muted: '#8E8981' },
+      fontFamily: {
+        display: ['Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['Montserrat', 'Arial', 'sans-serif']
+      },
+      letterSpacing: { luxury: '.22em' }
+    }}
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta name="description" content="Selección de bodas, retratos y fotografía editorial de Maison."></head>
+<body class="page-dark">
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Maison Photography inicio">MAISON<span>.</span></a>
+  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+    <span></span><span></span>
+  </button>
+  <nav id="main-nav" class="main-nav">
+    <a href="index.html">Inicio</a>
+    <a href="portfolio.html">Portafolio</a>
+    <a href="about.html">Estudio</a>
+    <a href="contact.html">Contacto</a>
+    <a class="nav-book" href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20sesión." target="_blank" rel="noopener">Reservar una sesión ↗</a>
+  </nav>
+</header>
+
+  <main class="inner-page">
+    <section class="page-heading">
+      <p class="eyebrow">OBRA SELECCIONADA · 2024—2026</p>
+      <h1>Historias en<br><em>fotografías.</em></h1>
+      <p>Una selección de instantes, personas y lugares vistos desde nuestra sensibilidad.</p>
+    </section>
+    <div class="portfolio-filters" role="group" aria-label="Filtrar portafolio">
+      <button class="filter-button active" data-filter="all">Todo</button>
+      <button class="filter-button" data-filter="weddings">Bodas</button>
+      <button class="filter-button" data-filter="portraits">Retratos</button>
+      <button class="filter-button" data-filter="editorial">Editorial</button>
+    </div>
+    <section class="portfolio-grid">
+      <figure class="portfolio-item wide" data-category="weddings" id="weddings">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=90" alt="Celebración de boda en exterior">
+        <figcaption><span>01 / WEDDINGS</span><strong>Un día para siempre</strong></figcaption>
+      </figure>
+      <figure class="portfolio-item" data-category="portraits" id="portraits">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=90" alt="Retrato femenino editorial">
+        <figcaption><span>02 / PORTRAITS</span><strong>La esencia</strong></figcaption>
+      </figure>
+      <figure class="portfolio-item" data-category="editorial">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=90" alt="Retrato de moda editorial">
+        <figcaption><span>03 / EDITORIAL</span><strong>Forma y luz</strong></figcaption>
+      </figure>
+      <figure class="portfolio-item" data-category="weddings">
+        <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1000&q=90" alt="Pareja de novios">
+        <figcaption><span>04 / WEDDINGS</span><strong>El comienzo</strong></figcaption>
+      </figure>
+      <figure class="portfolio-item wide" data-category="editorial">
+        <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1600&q=90" alt="Fotografía de moda editorial">
+        <figcaption><span>05 / EDITORIAL</span><strong>Sin artificios</strong></figcaption>
+      </figure>
+    </section>
+    <section class="closing-cta">
+      <div><p class="eyebrow">¿IMAGINAMOS ALGO JUNTOS?</p><h2>El próximo capítulo<br><em>puede ser el tuyo.</em></h2></div>
+      <a class="button-light" href="https://wa.me/573001234567?text=Hola%2C%20vi%20tu%20portafolio%20y%20quiero%20cotizar%20una%20sesión." target="_blank" rel="noopener">Consultar disponibilidad ↗</a>
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <a class="brand footer-brand" href="index.html">MAISON<span>.</span></a>
+  <p>Fotografía con intención. Recuerdos para siempre.</p>
+  <div class="footer-links">
+    <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+    <a href="https://wa.me/573001234567" target="_blank" rel="noopener">WhatsApp ↗</a>
+  </div>
+  <small>© 2026 MAISON PHOTOGRAPHY · COLOMBIA</small>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+</body></html>

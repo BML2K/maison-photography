@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>El estudio — MAISON</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: { ink: '#111111', ivory: '#F3EFE8', champagne: '#B9A58A', muted: '#8E8981' },
+      fontFamily: {
+        display: ['Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['Montserrat', 'Arial', 'sans-serif']
+      },
+      letterSpacing: { luxury: '.22em' }
+    }}
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta name="description" content="Conoce la filosofía y el enfoque de Maison Photography."></head>
+<body class="page-dark">
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Maison Photography inicio">MAISON<span>.</span></a>
+  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+    <span></span><span></span>
+  </button>
+  <nav id="main-nav" class="main-nav">
+    <a href="index.html">Inicio</a>
+    <a href="portfolio.html">Portafolio</a>
+    <a href="about.html">Estudio</a>
+    <a href="contact.html">Contacto</a>
+    <a class="nav-book" href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20sesión." target="_blank" rel="noopener">Reservar una sesión ↗</a>
+  </nav>
+</header>
+
+  <main class="inner-page">
+    <section class="about-hero">
+      <div class="page-heading">
+        <p class="eyebrow">EL ESTUDIO · NUESTRA FILOSOFÍA</p>
+        <h1>La belleza de<br><em>lo verdadero.</em></h1>
+        <p>Creemos en fotografías que se sienten antes de explicarse. En la luz natural, los gestos espontáneos y la elegancia de lo sencillo.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=90" alt="Fotógrafo trabajando con su cámara">
+    </section>
+    <section class="about-statement">
+      <p class="eyebrow">NUESTRO ENFOQUE</p>
+      <h2>Editorial en la forma.<br><em>Emocional en el fondo.</em></h2>
+      <div class="about-columns">
+        <p>Trabajamos con una dirección visual cuidada, pero dejamos espacio para lo inesperado. Cada sesión se construye alrededor de las personas y de aquello que las hace únicas.</p>
+        <p>El resultado: imágenes atemporales, con carácter cinematográfico y una sensibilidad que evita las tendencias pasajeras.</p>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <a class="brand footer-brand" href="index.html">MAISON<span>.</span></a>
+  <p>Fotografía con intención. Recuerdos para siempre.</p>
+  <div class="footer-links">
+    <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+    <a href="https://wa.me/573001234567" target="_blank" rel="noopener">WhatsApp ↗</a>
+  </div>
+  <small>© 2026 MAISON PHOTOGRAPHY · COLOMBIA</small>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+</body></html>
